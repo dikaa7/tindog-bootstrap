@@ -99,6 +99,16 @@ p{
 	margin: 20px 50px 20px;
 }
 
+#pricing{
+	padding: 7% 10%;
+}
+
+#pricing h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
 @media (min-width: 1000px) {
 	#title{
 		max-height: 770px;
