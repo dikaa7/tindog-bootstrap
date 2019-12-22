@@ -1,9 +1,41 @@
+html{
+	font-size: 18px;
+}
+
 body{
 	font-family: 'Ubuntu', sans-serif;
 }
 
+.navbar-brand{
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+#title{
+	background: #46b3e6;
+}
+
+.container-fluid{
+	padding: 3% 10%;
+ 	overflow: hidden;
+}
+
 h1{
+	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 	font-size: 3rem;
+	margin-bottom: 30px;
+}
+
+.imgdog{
+	margin-top: 30px;
+	transform: rotate(20deg);
+}
+
+@media (max-width: 1000px) {
+	.imgdog{
+		transform: rotate(0);
+	}
+	
 }
